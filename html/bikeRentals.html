@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Bootstrap Navbars</title>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/bikeRentals.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo"
+          aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture"></span> BikeRentals</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-nav-demo">
+        <ul class="nav navbar-nav" id="menu">
+          <li><a data-page="home" href="#home">Home</a></li>
+          <li><a data-page="bikes" href="#bikes">Bikes</a></li>
+          <li><a data-page="helmet" href="#helmet">Accessories</a></li>
+          <li><a data-page="insurance" href="#insurance">AddOn</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container" id="products">
+    <div id="home" class="page" data-page="home">
+      <div class="row">
+        <div class="jumbotron">
+          <h1 class="display-4">Welcome to Bike Rentals</h1>
+          <p class="lead">Thank you for visiting our website and welcome to the premier bike rental destination in New
+            York</p>
+          <hr class="my-4">
+          <p>As the premier recreational rental company in the area, Bike Rentals offers the ultimate in fun for the
+            entire family, from toddlers through grandparents.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="bikes" class="page hide" data-page="bikes">
+      <div class="row">
+      </div>
+    </div>
+    <div id="helmet" class="page hide" data-page="helmet">
+      <div class="row">
+      </div>
+    </div>
+    <div id="insurance" class="page hide" data-page="insurance">
+      <div class="row">
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="../js/bikeRentals.js"></script>
+</body>
+
+</html>
